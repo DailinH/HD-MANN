@@ -15,7 +15,7 @@ from cnn import CNNController
 from data_generator import DataGenerator
 from utils import *
 
-def train(model, data_generator, optimizer, criterion, device, n_step = 50000, save=True):
+def train(model, data_generator, optimizer, criterion, device, n_step = 50000, save=True, sharpen='softmax'):
     
   exp_name = f"{W}way{S}shot"
   writer = SummaryWriter(comment=exp_name)
@@ -40,10 +40,14 @@ def train(model, data_generator, optimizer, criterion, device, n_step = 50000, s
     cosine_sim = get_cosine_similarity(query_keys, support_keys)
     # sharpened = sharpening_softabs(cosine_sim, 10)
     if sharpen == 'softmax':
-      print("Using softmax sharpening function")
+      # print("Using softmax sharpening function")
       sharpened = sharpening_softmax(cosine_sim)
-    elif sharpen == 'Using softabs sharpening function':
+      # print(np.shape(sharpened))
+    elif sharpen == 'softabs':
+      # print('Using softabs sharpening function')
       sharpened = sharpening_softabs(cosine_sim, 10)
+      # print(np.shape(sharpened))
+
     normalized = normalize(sharpened)
     pred = weighted_sum(normalized, support_label)
     optimizer.zero_grad()
@@ -54,25 +58,25 @@ def train(model, data_generator, optimizer, criterion, device, n_step = 50000, s
       writer.add_scalar("Loss/Train", loss, step)
       acc = inference(model, data_gen, device)
       print(f"val acc = {acc}")
-      loss_train.append(loss)
+      loss_train.append(loss.cpu().data.numpy())
       val_accs.append(acc)
       steps.append(step)
     #backprop
     optimizer.step()
     
-  if save:
-      torch.save(model.state_dict(), f"model_{exp_name}")
+  # if save:
+  #     torch.save(model.state_dict(), f"model_{exp_name}")
   
-  plt.plot(steps,loss_train)
-  plt.xlabel("iteration")
-  plt.ylabel('training loss')
-  plt.show()
+  # plt.plot(steps,loss_train)
+  # plt.xlabel("iteration")
+  # plt.ylabel('training loss')
+  # plt.show()
 
-  plt.plot(steps,val_accs)
-  plt.xlabel("iteration")
-  plt.ylabel('validation accuracy')
-  plt.show()
-  return model
+  # plt.plot(steps,val_accs)
+  # plt.xlabel("iteration")
+  # plt.ylabel('validation accuracy')
+  # plt.show()
+  return model, steps, loss_train, val_accs
 
 
 def inference(model, data_generator, device, key_mem_transform = binarize, n_step = 1000):
@@ -102,6 +106,8 @@ device = torch.device('cpu')
 if torch.cuda.is_available():
   device = torch.device('cuda')
 
+print("SOFTABS Experiment")
+
 W = 5 #way
 S = 1 #shots
 D = 512
@@ -110,9 +116,37 @@ model = CNNController(D).float().to(device)
 criterion = nn.BCEWithLogitsLoss()
 optimizer = torch.optim.Adam(params=model.parameters(), lr=5e-5)
 
-model = train(model, data_gen, optimizer, criterion, device, 50000)
-torch.save(model.state_dict(), './model/')
+model, steps, loss, acc = train(model, data_gen, optimizer, criterion, device, 50000, sharpen='softabs')
+torch.save(model.state_dict(), './model_softabs.pth')
 
-acc = inference(model, data_gen, device)
-print(f"acc = {acc}")
+steps = np.asarray(steps)
+loss = np.asarray(loss)
+acc = np.asarray(acc)
+
+np.savez('softabs_data.npz', steps, loss, acc)
+
+
+# acc = inference(model, data_gen, device)
+# print(f"acc = {acc}")
+
+#############SOFTMAX################
+print("SOFTMAX Experiment")
+
+data_gen = DataGenerator(W,S)
+model = CNNController(D).float().to(device)
+criterion = nn.BCEWithLogitsLoss()
+optimizer = torch.optim.Adam(params=model.parameters(), lr=5e-5)
+
+model, steps, loss, acc = train(model, data_gen, optimizer, criterion, device, 50000, sharpen='softmax')
+torch.save(model.state_dict(), './model_softmax.pth')
+
+steps = np.asarray(steps)
+loss = np.asarray(loss)
+acc = np.asarray(acc)
+
+np.savez('softmax_data.npz', steps, loss, acc)
+
+
+# acc = inference(model, data_gen, device)
+# print(f"acc = {acc}")
 

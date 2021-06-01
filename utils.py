@@ -25,7 +25,8 @@ def sharpening_softabs(x,beta=10):
   return 1/(1+torch.exp(-beta*(x-0.5)))+1/(1+torch.exp(-beta*(-x-0.5)))
 
 def sharpening_softmax(x):
-  return torch.nn.Softmax(x)
+  res = torch.nn.functional.softmax(x)
+  return res
 
 def normalize(x):
   return x/torch.sum(x,axis=1).reshape(-1,1)

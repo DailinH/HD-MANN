@@ -1,0 +1,982 @@
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+train loss = 0.7581347823143005
+val acc = 0.38059375
+train loss = 0.7239405512809753
+val acc = 0.55909375
+train loss = 0.7649083137512207
+val acc = 0.59340625
+train loss = 0.734545111656189
+val acc = 0.5586875
+train loss = 0.7333847880363464
+val acc = 0.6240625
+train loss = 0.7060543894767761
+val acc = 0.64203125
+train loss = 0.7052120566368103
+val acc = 0.6699375
+train loss = 0.7387450337409973
+val acc = 0.6533125
+Traceback (most recent call last):
+  File "main.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+train loss = 0.7581349015235901
+val acc = 0.354875
+train loss = 0.707209587097168
+val acc = 0.5340625
+train loss = 0.7580400705337524
+val acc = 0.6025625
+train loss = 0.7142750024795532
+val acc = 0.60040625
+train loss = 0.7409374117851257
+val acc = 0.64278125
+train loss = 0.7149801850318909
+val acc = 0.654875
+train loss = 0.7150323987007141
+val acc = 0.686
+train loss = 0.7351998686790466
+val acc = 0.6884375
+train loss = 0.724195122718811
+val acc = 0.7111875
+train loss = 0.6892973780632019
+val acc = 0.707625
+train loss = 0.7224599719047546
+val acc = 0.7196875
+train loss = 0.7037081718444824
+val acc = 0.72575
+train loss = 0.7370682954788208
+val acc = 0.735375
+train loss = 0.6719121336936951
+val acc = 0.739875
+train loss = 0.675150990486145
+val acc = 0.74309375
+train loss = 0.6969035863876343
+val acc = 0.767875
+train loss = 0.6758739948272705
+val acc = 0.7644375
+train loss = 0.72062087059021
+val acc = 0.7823125
+train loss = 0.6946031451225281
+val acc = 0.7829375
+train loss = 0.6883602738380432
+val acc = 0.78634375
+train loss = 0.6860863566398621
+val acc = 0.7916875
+train loss = 0.7202330231666565
+val acc = 0.80228125
+train loss = 0.7012144923210144
+val acc = 0.8025625
+train loss = 0.7175266146659851
+val acc = 0.8
+train loss = 0.6803612112998962
+val acc = 0.814375
+train loss = 0.7153844237327576
+val acc = 0.8095625
+train loss = 0.6898556351661682
+val acc = 0.80446875
+train loss = 0.7122666239738464
+val acc = 0.81859375
+train loss = 0.6913179755210876
+val acc = 0.81115625
+train loss = 0.6602017283439636
+val acc = 0.822375
+train loss = 0.6859062314033508
+val acc = 0.827375
+train loss = 0.6965040564537048
+val acc = 0.8396875
+train loss = 0.6559735536575317
+val acc = 0.84096875
+train loss = 0.6975613832473755
+val acc = 0.8265625
+train loss = 0.6903353929519653
+val acc = 0.84146875
+train loss = 0.6606476902961731
+val acc = 0.83275
+train loss = 0.7012876868247986
+val acc = 0.84725
+train loss = 0.6989664435386658
+val acc = 0.854625
+train loss = 0.6953046917915344
+val acc = 0.84325
+train loss = 0.6990358233451843
+val acc = 0.85040625
+train loss = 0.6763418316841125
+val acc = 0.8640625
+train loss = 0.6525761485099792
+val acc = 0.85675
+train loss = 0.6754456758499146
+val acc = 0.856
+train loss = 0.676503598690033
+val acc = 0.85740625
+train loss = 0.7358571290969849
+val acc = 0.8641875
+train loss = 0.7137557864189148
+val acc = 0.86340625
+train loss = 0.7015251517295837
+val acc = 0.8643125
+train loss = 0.7213507890701294
+val acc = 0.87715625
+train loss = 0.7249881029129028
+val acc = 0.88121875
+train loss = 0.6486970782279968
+val acc = 0.87328125
+train loss = 0.7002770900726318
+val acc = 0.87578125
+train loss = 0.6728264689445496
+val acc = 0.87778125
+train loss = 0.6948994994163513
+val acc = 0.877625
+train loss = 0.6726683974266052
+val acc = 0.87496875
+train loss = 0.676339864730835
+val acc = 0.8778125
+train loss = 0.6897960901260376
+val acc = 0.88203125
+train loss = 0.6988031268119812
+val acc = 0.87628125
+train loss = 0.666752815246582
+val acc = 0.8800625
+train loss = 0.7051401138305664
+val acc = 0.87940625
+train loss = 0.6743819117546082
+val acc = 0.888875
+train loss = 0.6717680096626282
+val acc = 0.8961875
+train loss = 0.6815627217292786
+val acc = 0.8890625
+train loss = 0.6737785339355469
+val acc = 0.8838125
+train loss = 0.655079185962677
+val acc = 0.88459375
+train loss = 0.6869248747825623
+val acc = 0.8973125
+train loss = 0.6665043830871582
+val acc = 0.8949375
+train loss = 0.698178768157959
+val acc = 0.89746875
+train loss = 0.681967556476593
+val acc = 0.90125
+train loss = 0.6853724122047424
+val acc = 0.9
+train loss = 0.676703155040741
+val acc = 0.90340625
+train loss = 0.6702699661254883
+val acc = 0.905375
+train loss = 0.642652690410614
+val acc = 0.9055625
+train loss = 0.6646419763565063
+val acc = 0.898
+train loss = 0.6461028456687927
+val acc = 0.90440625
+train loss = 0.6603934168815613
+val acc = 0.90578125
+train loss = 0.6791763305664062
+val acc = 0.909875
+train loss = 0.6808335781097412
+val acc = 0.9045
+train loss = 0.6638332009315491
+val acc = 0.9089375
+train loss = 0.6519678235054016
+val acc = 0.89721875
+train loss = 0.6877607703208923
+val acc = 0.908875
+train loss = 0.660541296005249
+val acc = 0.90475
+train loss = 0.6606297492980957
+val acc = 0.9045625
+train loss = 0.6471660733222961
+val acc = 0.91296875
+train loss = 0.671296238899231
+val acc = 0.9106875
+train loss = 0.6577478647232056
+val acc = 0.91090625
+train loss = 0.6486107707023621
+val acc = 0.91184375
+train loss = 0.6328604817390442
+val acc = 0.91165625
+train loss = 0.6452579498291016
+val acc = 0.912125
+train loss = 0.6785933375358582
+val acc = 0.91465625
+train loss = 0.6974717974662781
+val acc = 0.906
+train loss = 0.6852726936340332
+val acc = 0.91653125
+train loss = 0.6802152991294861
+val acc = 0.91275
+train loss = 0.6484463214874268
+val acc = 0.9181875
+train loss = 0.668188214302063
+val acc = 0.91284375
+train loss = 0.6727181077003479
+val acc = 0.91165625
+train loss = 0.6567897200584412
+val acc = 0.91325
+train loss = 0.6714186072349548
+val acc = 0.91384375
+train loss = 0.6699877977371216
+val acc = 0.92015625
+train loss = 0.6822079420089722
+val acc = 0.91409375
+train loss = 0.6670056581497192
+val acc = 0.92178125
+Traceback (most recent call last):
+  File "main.py", line 117, in <module>
+    torch.save(model.state_dict(), './model_softabs/')
+  File "/data/homezvol0/dailinh/.conda/envs/python=3.6/lib/python3.8/site-packages/torch/serialization.py", line 327, in save
+    with _open_file_like(f, 'wb') as opened_file:
+  File "/data/homezvol0/dailinh/.conda/envs/python=3.6/lib/python3.8/site-packages/torch/serialization.py", line 212, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/data/homezvol0/dailinh/.conda/envs/python=3.6/lib/python3.8/site-packages/torch/serialization.py", line 193, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+IsADirectoryError: [Errno 21] Is a directory: './model_softabs/'
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+train loss = 0.7581387758255005
+val acc = 0.371375
+train loss = 0.7581338286399841
+val acc = 0.37084375
+train loss = 0.7648040056228638
+val acc = 0.48665625
+train loss = 0.7264775037765503
+val acc = 0.4945625
+train loss = 0.7529827952384949
+val acc = 0.52478125
+train loss = 0.725260853767395
+val acc = 0.555
+train loss = 0.7175671458244324
+val acc = 0.60334375
+train loss = 0.7417287826538086
+val acc = 0.611625
+train loss = 0.726242184638977
+val acc = 0.62075
+train loss = 0.6918156743049622
+val acc = 0.6339375
+train loss = 0.719779908657074
+val acc = 0.6639375
+train loss = 0.683756947517395
+val acc = 0.6928125
+train loss = 0.7539522647857666
+val acc = 0.68271875
+train loss = 0.6818394660949707
+val acc = 0.70259375
+train loss = 0.6732161641120911
+val acc = 0.70190625
+train loss = 0.6909636855125427
+val acc = 0.7061875
+train loss = 0.7005016207695007
+val acc = 0.7093125
+train loss = 0.7187689542770386
+val acc = 0.73328125
+train loss = 0.7002355456352234
+val acc = 0.7294375
+train loss = 0.7004889249801636
+val acc = 0.7361875
+train loss = 0.6953455805778503
+val acc = 0.76178125
+train loss = 0.7164885401725769
+val acc = 0.756125
+train loss = 0.6987418532371521
+val acc = 0.764
+train loss = 0.715923011302948
+val acc = 0.77809375
+train loss = 0.673751175403595
+val acc = 0.7738125
+train loss = 0.7111920714378357
+val acc = 0.7929375
+train loss = 0.6790650486946106
+val acc = 0.7815625
+train loss = 0.7094922065734863
+val acc = 0.80584375
+train loss = 0.6964762806892395
+val acc = 0.7943125
+train loss = 0.662406325340271
+val acc = 0.806875
+train loss = 0.6915136575698853
+val acc = 0.81790625
+train loss = 0.7136484980583191
+val acc = 0.8226875
+train loss = 0.6647455096244812
+val acc = 0.81984375
+train loss = 0.6956833004951477
+val acc = 0.81628125
+train loss = 0.693485677242279
+val acc = 0.84009375
+train loss = 0.6565942168235779
+val acc = 0.8255625
+train loss = 0.693009078502655
+val acc = 0.828875
+train loss = 0.6971467733383179
+val acc = 0.83190625
+train loss = 0.6952943801879883
+val acc = 0.839875
+train loss = 0.7121555209159851
+val acc = 0.836875
+train loss = 0.6802501678466797
+val acc = 0.8405
+train loss = 0.6706433892250061
+val acc = 0.838875
+train loss = 0.6799454689025879
+val acc = 0.8535625
+train loss = 0.6785428524017334
+val acc = 0.85175
+train loss = 0.7262829542160034
+val acc = 0.8491875
+train loss = 0.7043325304985046
+val acc = 0.84190625
+train loss = 0.7062544226646423
+val acc = 0.850875
+train loss = 0.7092390656471252
+val acc = 0.851375
+train loss = 0.718906581401825
+val acc = 0.8634375
+train loss = 0.6522602438926697
+val acc = 0.857625
+train loss = 0.7064923048019409
+val acc = 0.866875
+train loss = 0.6710006594657898
+val acc = 0.86071875
+train loss = 0.6984068751335144
+val acc = 0.87021875
+train loss = 0.6639718413352966
+val acc = 0.861375
+train loss = 0.677707314491272
+val acc = 0.87009375
+train loss = 0.6805025935173035
+val acc = 0.8713125
+train loss = 0.7013130187988281
+val acc = 0.869625
+train loss = 0.6744855046272278
+val acc = 0.858125
+train loss = 0.7028074264526367
+val acc = 0.86753125
+train loss = 0.6706377863883972
+val acc = 0.87346875
+train loss = 0.6761119365692139
+val acc = 0.880125
+train loss = 0.6997086405754089
+val acc = 0.87828125
+train loss = 0.6736826300621033
+val acc = 0.87653125
+train loss = 0.6590465903282166
+val acc = 0.86815625
+train loss = 0.6838361024856567
+val acc = 0.88575
+train loss = 0.6631302833557129
+val acc = 0.88865625
+train loss = 0.6956670880317688
+val acc = 0.8829375
+train loss = 0.6759066581726074
+val acc = 0.88065625
+train loss = 0.6882580518722534
+val acc = 0.8901875
+train loss = 0.6716302037239075
+val acc = 0.88890625
+train loss = 0.6676344275474548
+val acc = 0.89171875
+train loss = 0.6532384157180786
+val acc = 0.89528125
+train loss = 0.6624265909194946
+val acc = 0.88484375
+train loss = 0.655804455280304
+val acc = 0.8890625
+train loss = 0.6643343567848206
+val acc = 0.885
+train loss = 0.6881464123725891
+val acc = 0.89290625
+train loss = 0.6807553172111511
+val acc = 0.89565625
+train loss = 0.6631104350090027
+val acc = 0.896375
+train loss = 0.6502105593681335
+val acc = 0.88559375
+train loss = 0.6878745555877686
+val acc = 0.9028125
+train loss = 0.6622624397277832
+val acc = 0.89740625
+train loss = 0.661760687828064
+val acc = 0.8964375
+train loss = 0.6532144546508789
+val acc = 0.90240625
+train loss = 0.6735936999320984
+val acc = 0.90284375
+train loss = 0.6640116572380066
+val acc = 0.90096875
+train loss = 0.6470402479171753
+val acc = 0.902375
+train loss = 0.6343371272087097
+val acc = 0.90175
+train loss = 0.6407899260520935
+val acc = 0.89671875
+train loss = 0.686107337474823
+val acc = 0.8994375
+train loss = 0.7047149538993835
+val acc = 0.90275
+train loss = 0.6903027892112732
+val acc = 0.90953125
+train loss = 0.6720138788223267
+val acc = 0.906875
+train loss = 0.6510775685310364
+val acc = 0.91028125
+train loss = 0.6645396947860718
+val acc = 0.906625
+train loss = 0.6829637885093689
+val acc = 0.90303125
+train loss = 0.6634575724601746
+val acc = 0.9038125
+train loss = 0.6796323657035828
+val acc = 0.90090625
+train loss = 0.6761652827262878
+val acc = 0.91184375
+train loss = 0.6866999268531799
+val acc = 0.90621875
+train loss = 0.6714797616004944
+val acc = 0.90896875
+Traceback (most recent call last):
+  File "main.py", line 120, in <module>
+    loss = np.asarray(loss)
+  File "/data/homezvol0/dailinh/.conda/envs/python=3.6/lib/python3.8/site-packages/numpy/core/_asarray.py", line 102, in asarray
+    return array(a, dtype, copy=False, order=order)
+  File "/data/homezvol0/dailinh/.conda/envs/python=3.6/lib/python3.8/site-packages/torch/tensor.py", line 486, in __array__
+    return self.numpy()
+TypeError: can't convert CUDA tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+train loss = 0.7581324577331543
+val acc = 0.39609375
+Traceback (most recent call last):
+  File "main.py", line 119, in <module>
+    steps = np.asarray(steps.detach().numpy())
+AttributeError: 'list' object has no attribute 'detach'
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+train loss = 0.7581337094306946
+val acc = 0.39853125
+Traceback (most recent call last):
+  File "main.py", line 120, in <module>
+    loss = np.asarray(loss.detach().numpy())
+AttributeError: 'list' object has no attribute 'detach'
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+train loss = 0.7581364512443542
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+train loss = 0.758133590221405
+val acc = 0.37384375
+Traceback (most recent call last):
+  File "main.py", line 120, in <module>
+    loss = np.asarray(loss)
+  File "/data/homezvol0/dailinh/.conda/envs/python=3.6/lib/python3.8/site-packages/numpy/core/_asarray.py", line 102, in asarray
+    return array(a, dtype, copy=False, order=order)
+  File "/data/homezvol0/dailinh/.conda/envs/python=3.6/lib/python3.8/site-packages/torch/tensor.py", line 486, in __array__
+    return self.numpy()
+TypeError: can't convert CUDA tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+val acc = 0.3505625
+Traceback (most recent call last):
+  File "main.py", line 120, in <module>
+    loss = np.asarray(loss)
+  File "/data/homezvol0/dailinh/.conda/envs/python=3.6/lib/python3.8/site-packages/numpy/core/_asarray.py", line 102, in asarray
+    return array(a, dtype, copy=False, order=order)
+  File "/data/homezvol0/dailinh/.conda/envs/python=3.6/lib/python3.8/site-packages/torch/tensor.py", line 486, in __array__
+    return self.numpy()
+TypeError: can't convert CUDA tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+train loss = 0.7581365704536438
+val acc = 0.36125
+Traceback (most recent call last):
+  File "main.py", line 120, in <module>
+    loss = np.asarray(loss.cpu())
+AttributeError: 'list' object has no attribute 'cpu'
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+train loss = 0.7581347823143005
+val acc = 0.3920625
+Traceback (most recent call last):
+  File "main.py", line 116, in <module>
+    model, steps, loss, acc = train(model, data_gen, optimizer, criterion, device, 1, sharpen='softabs')
+  File "main.py", line 58, in train
+    loss_train.append(loss.detach().numpy())
+TypeError: can't convert CUDA tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+train loss = 0.7581354975700378
+val acc = 0.37121875
+Traceback (most recent call last):
+  File "main.py", line 116, in <module>
+    model, steps, loss, acc = train(model, data_gen, optimizer, criterion, device, 1, sharpen='softabs')
+  File "main.py", line 59, in train
+    val_accs.append(acc.cpu().data.numpy())
+AttributeError: 'numpy.float64' object has no attribute 'cpu'
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+train loss = 0.7581335306167603
+val acc = 0.36540625
+acc = 0.385625
+SOFTMAX Experiment
+Traceback (most recent call last):
+  File "main.py", line 137, in <module>
+    model, steps, loss, acc = train(model, data_gen, optimizer, criterion, device, 1, sharpen='softmax')
+  File "main.py", line 48, in train
+    normalized = normalize(sharpened)
+  File "/data/homezvol0/dailinh/HD-MANN/utils.py", line 31, in normalize
+    return x/torch.sum(x,axis=1).reshape(-1,1)
+TypeError: sum() received an invalid combination of arguments - got (Softmax, axis=int), but expected one of:
+ * (Tensor input, torch.dtype dtype)
+      didn't match because some of the keywords were incorrect: axis
+ * (Tensor input, tuple of names dim, bool keepdim, torch.dtype dtype, Tensor out)
+ * (Tensor input, tuple of ints dim, bool keepdim, torch.dtype dtype, Tensor out)
+
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+torch.Size([32, 5])
+train loss = 0.758135974407196
+val acc = 0.3709375
+SOFTMAX Experiment
+Traceback (most recent call last):
+  File "main.py", line 140, in <module>
+    model, steps, loss, acc = train(model, data_gen, optimizer, criterion, device, 1, sharpen='softmax')
+  File "main.py", line 44, in train
+    sharpened = sharpening_softmax(cosine_sim)
+  File "/data/homezvol0/dailinh/HD-MANN/utils.py", line 28, in sharpening_softmax
+    return torch.nn.Softmax(x).detach().numpy()
+  File "/data/homezvol0/dailinh/.conda/envs/python=3.6/lib/python3.8/site-packages/torch/nn/modules/module.py", line 575, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'Softmax' object has no attribute 'detach'
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+torch.Size([32, 5])
+train loss = 0.7581353187561035
+val acc = 0.3800625
+SOFTMAX Experiment
+Traceback (most recent call last):
+  File "main.py", line 140, in <module>
+    model, steps, loss, acc = train(model, data_gen, optimizer, criterion, device, 1, sharpen='softmax')
+  File "main.py", line 44, in train
+    sharpened = sharpening_softmax(cosine_sim)
+  File "/data/homezvol0/dailinh/HD-MANN/utils.py", line 29, in sharpening_softmax
+    return res.detach().numpy()
+  File "/data/homezvol0/dailinh/.conda/envs/python=3.6/lib/python3.8/site-packages/torch/nn/modules/module.py", line 575, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'Softmax' object has no attribute 'detach'
+SOFTABS Experiment
+/data/homezvol0/dailinh/HD-MANN/data_generator.py:63: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  query_labels = np.vstack(query_labels)
+train loss = 0.7581326365470886
+val acc = 0.35675
+train loss = 0.7194158434867859
+val acc = 0.53953125
+train loss = 0.7649562954902649
+val acc = 0.582375
+train loss = 0.7175542712211609
+val acc = 0.6125
+train loss = 0.740868091583252
+val acc = 0.64690625
+train loss = 0.7118121385574341
+val acc = 0.64428125
+train loss = 0.7150203585624695
+val acc = 0.6846875
+train loss = 0.7440428137779236
+val acc = 0.67865625
+train loss = 0.7168168425559998
+val acc = 0.70153125
+train loss = 0.6901612281799316
+val acc = 0.69509375
+train loss = 0.7235751152038574
+val acc = 0.72075
+train loss = 0.6964448094367981
+val acc = 0.72334375
+train loss = 0.7387483716011047
+val acc = 0.73265625
+train loss = 0.6811694502830505
+val acc = 0.74125
+train loss = 0.6706786751747131
+val acc = 0.76153125
+train loss = 0.6996043920516968
+val acc = 0.76453125
+train loss = 0.6684615015983582
+val acc = 0.75575
+train loss = 0.7158181667327881
+val acc = 0.77875
+train loss = 0.6856853365898132
+val acc = 0.77940625
+train loss = 0.6893112063407898
+val acc = 0.798
+train loss = 0.6822554469108582
+val acc = 0.79946875
+train loss = 0.7229594588279724
+val acc = 0.80640625
+train loss = 0.7056674957275391
+val acc = 0.80334375
+train loss = 0.7084857821464539
+val acc = 0.81340625
+train loss = 0.6731881499290466
+val acc = 0.81228125
+train loss = 0.7176653742790222
+val acc = 0.825375
+train loss = 0.6793862581253052
+val acc = 0.821
+train loss = 0.7078916430473328
+val acc = 0.82884375
+train loss = 0.6927415728569031
+val acc = 0.82575
+train loss = 0.6592447757720947
+val acc = 0.83603125
+train loss = 0.6855700612068176
+val acc = 0.83509375
+train loss = 0.6930091977119446
+val acc = 0.8525625
+train loss = 0.6687571406364441
+val acc = 0.85278125
+train loss = 0.702901303768158
+val acc = 0.8454375
+train loss = 0.6898593306541443
+val acc = 0.86721875
+train loss = 0.663304328918457
+val acc = 0.84634375
+train loss = 0.6916603446006775
+val acc = 0.8506875
+train loss = 0.687992513179779
+val acc = 0.85203125
+train loss = 0.7021032571792603
+val acc = 0.8535
+train loss = 0.706359326839447
+val acc = 0.8578125
+train loss = 0.6737703680992126
+val acc = 0.86909375
+train loss = 0.6630625128746033
+val acc = 0.86246875
+train loss = 0.6739069223403931
+val acc = 0.8694375
+train loss = 0.6693032383918762
+val acc = 0.87165625
+train loss = 0.7277303338050842
+val acc = 0.86790625
+train loss = 0.6965023875236511
+val acc = 0.87315625
+train loss = 0.6974360346794128
+val acc = 0.87578125
+train loss = 0.7237517237663269
+val acc = 0.87484375
+train loss = 0.7173271179199219
+val acc = 0.88675
+train loss = 0.6476917266845703
+val acc = 0.87490625
+train loss = 0.7011507749557495
+val acc = 0.8861875
+train loss = 0.672441303730011
+val acc = 0.88334375
+train loss = 0.6995651125907898
+val acc = 0.883
+train loss = 0.6616385579109192
+val acc = 0.88728125
+train loss = 0.6745162010192871
+val acc = 0.890875
+train loss = 0.6800357103347778
+val acc = 0.8841875
+train loss = 0.7098366022109985
+val acc = 0.888875
+train loss = 0.6762274503707886
+val acc = 0.885375
+train loss = 0.7080251574516296
+val acc = 0.88265625
+train loss = 0.6731706261634827
+val acc = 0.883125
+train loss = 0.6820167899131775
+val acc = 0.89621875
+train loss = 0.6962337493896484
+val acc = 0.8951875
+train loss = 0.6786426305770874
+val acc = 0.8975
+train loss = 0.6567174792289734
+val acc = 0.890375
+train loss = 0.6857635378837585
+val acc = 0.90196875
+train loss = 0.6703258752822876
+val acc = 0.9014375
+train loss = 0.6939489245414734
+val acc = 0.89821875
+train loss = 0.6760004162788391
+val acc = 0.9015625
+train loss = 0.6819887161254883
+val acc = 0.90421875
+train loss = 0.6647154688835144
+val acc = 0.90375
+train loss = 0.6750196814537048
+val acc = 0.9040625
+train loss = 0.6445435881614685
+val acc = 0.911875
+train loss = 0.6655946969985962
+val acc = 0.900375
+train loss = 0.6414914727210999
+val acc = 0.9065
+train loss = 0.6561258435249329
+val acc = 0.90059375
+train loss = 0.6801595091819763
+val acc = 0.90790625
+train loss = 0.6754069328308105
+val acc = 0.90959375
+train loss = 0.6673043370246887
+val acc = 0.91021875
+train loss = 0.6516004204750061
+val acc = 0.9015625
+train loss = 0.6932711005210876
+val acc = 0.911625
+train loss = 0.6497581005096436
+val acc = 0.9095
+train loss = 0.664834201335907
+val acc = 0.90653125
+train loss = 0.6499695777893066
+val acc = 0.914875
+train loss = 0.6651499271392822
+val acc = 0.9113125
+train loss = 0.6494019031524658
+val acc = 0.91334375
+train loss = 0.6460546255111694
+val acc = 0.9138125
+train loss = 0.6335286498069763
+val acc = 0.91
+train loss = 0.6468108892440796
+val acc = 0.9149375
+train loss = 0.6708570718765259
+val acc = 0.9124375
+train loss = 0.7032641768455505
+val acc = 0.91215625
+train loss = 0.6798154711723328
+val acc = 0.91490625
+train loss = 0.6819511651992798
+val acc = 0.917125
+train loss = 0.6518093347549438
+val acc = 0.9211875
+train loss = 0.6628775000572205
+val acc = 0.9169375
+train loss = 0.6765024065971375
+val acc = 0.9108125
+train loss = 0.6612394452095032
+val acc = 0.922125
+train loss = 0.6776092648506165
+val acc = 0.9186875
+train loss = 0.6690546870231628
+val acc = 0.9214375
+train loss = 0.6751853823661804
+val acc = 0.91971875
+train loss = 0.6682295203208923
+val acc = 0.920375
+SOFTMAX Experiment
+/data/homezvol0/dailinh/HD-MANN/utils.py:28: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  res = torch.nn.functional.softmax(x)
+train loss = 0.7580890655517578
+val acc = 0.39371875
+train loss = 0.7361235022544861
+val acc = 0.47596875
+train loss = 0.7615098357200623
+val acc = 0.4869375
+train loss = 0.7386434674263
+val acc = 0.47925
+train loss = 0.7514519095420837
+val acc = 0.48925
+train loss = 0.7451473474502563
+val acc = 0.4886875
+train loss = 0.7385516166687012
+val acc = 0.5038125
+train loss = 0.7440178990364075
+val acc = 0.48878125
+train loss = 0.7531136870384216
+val acc = 0.5033125
+train loss = 0.7295461893081665
+val acc = 0.503
+train loss = 0.7450069785118103
+val acc = 0.53634375
+train loss = 0.7338245511054993
+val acc = 0.57078125
+train loss = 0.7574779987335205
+val acc = 0.54340625
+train loss = 0.7324466705322266
+val acc = 0.56640625
+train loss = 0.7260827422142029
+val acc = 0.5816875
+train loss = 0.7321987152099609
+val acc = 0.59240625
+train loss = 0.7407820820808411
+val acc = 0.585875
+train loss = 0.7406005859375
+val acc = 0.5888125
+train loss = 0.7326971292495728
+val acc = 0.596625
+train loss = 0.7311689257621765
+val acc = 0.60628125
+train loss = 0.7390725016593933
+val acc = 0.59903125
+train loss = 0.7428085803985596
+val acc = 0.61596875
+train loss = 0.7372633218765259
+val acc = 0.61115625
+train loss = 0.7413424849510193
+val acc = 0.61596875
+train loss = 0.7349080443382263
+val acc = 0.6205
+train loss = 0.7376753091812134
+val acc = 0.62234375
+train loss = 0.7378735542297363
+val acc = 0.62684375
+train loss = 0.7395826578140259
+val acc = 0.62396875
+train loss = 0.7379788756370544
+val acc = 0.6246875
+train loss = 0.7330203652381897
+val acc = 0.63090625
+train loss = 0.7398368120193481
+val acc = 0.63934375
+train loss = 0.7513682842254639
+val acc = 0.635125
+train loss = 0.7287624478340149
+val acc = 0.6446875
+train loss = 0.732139527797699
+val acc = 0.63490625
+train loss = 0.7329052686691284
+val acc = 0.6418125
+train loss = 0.7245872616767883
+val acc = 0.6329375
+train loss = 0.7435275316238403
+val acc = 0.64446875
+train loss = 0.7370416522026062
+val acc = 0.65228125
+train loss = 0.7395657300949097
+val acc = 0.63434375
+train loss = 0.740059494972229
+val acc = 0.65228125
+train loss = 0.7255606055259705
+val acc = 0.6445625
+train loss = 0.7308365702629089
+val acc = 0.64971875
+train loss = 0.7325767874717712
+val acc = 0.64121875
+train loss = 0.7340752482414246
+val acc = 0.64328125
+train loss = 0.7493724822998047
+val acc = 0.6588125
+train loss = 0.7331730723381042
+val acc = 0.66034375
+train loss = 0.7415583729743958
+val acc = 0.667
+train loss = 0.746726393699646
+val acc = 0.64996875
+train loss = 0.7547860741615295
+val acc = 0.66765625
+train loss = 0.7294183969497681
+val acc = 0.6715
+train loss = 0.7474738955497742
+val acc = 0.67421875
+train loss = 0.7334265112876892
+val acc = 0.67375
+train loss = 0.7421910166740417
+val acc = 0.68125
+train loss = 0.7239187359809875
+val acc = 0.67240625
+train loss = 0.7366759181022644
+val acc = 0.6796875
+train loss = 0.7366535067558289
+val acc = 0.67690625
+train loss = 0.7413313388824463
+val acc = 0.68540625
+train loss = 0.7325910925865173
+val acc = 0.68259375
+train loss = 0.7405188679695129
+val acc = 0.6841875
+train loss = 0.7366824150085449
+val acc = 0.6699375
+train loss = 0.7243273258209229
+val acc = 0.69015625
+train loss = 0.7382966876029968
+val acc = 0.67253125
+train loss = 0.7332561016082764
+val acc = 0.6774375
+train loss = 0.7217392921447754
+val acc = 0.67971875
+train loss = 0.7325556874275208
+val acc = 0.68484375
+train loss = 0.7265788316726685
+val acc = 0.68303125
+train loss = 0.7409583926200867
+val acc = 0.68990625
+train loss = 0.7340653538703918
+val acc = 0.69765625
+train loss = 0.7318377494812012
+val acc = 0.69321875
+train loss = 0.7292895317077637
+val acc = 0.688
+train loss = 0.7326478362083435
+val acc = 0.69353125
+train loss = 0.7284294366836548
+val acc = 0.70065625
+train loss = 0.7331051230430603
+val acc = 0.69534375
+train loss = 0.7267608046531677
+val acc = 0.70134375
+train loss = 0.7347851991653442
+val acc = 0.69565625
+train loss = 0.7343840003013611
+val acc = 0.69203125
+train loss = 0.7429110407829285
+val acc = 0.6970625
+train loss = 0.7268290519714355
+val acc = 0.692375
+train loss = 0.7208077311515808
+val acc = 0.69084375
+train loss = 0.7275568246841431
+val acc = 0.7080625
+train loss = 0.7303617596626282
+val acc = 0.689125
+train loss = 0.7229027152061462
+val acc = 0.7058125
+train loss = 0.7264891862869263
+val acc = 0.70928125
+train loss = 0.7279849052429199
+val acc = 0.704375
+train loss = 0.7340947985649109
+val acc = 0.70165625
+train loss = 0.7287501692771912
+val acc = 0.69990625
+train loss = 0.7287569046020508
+val acc = 0.7048125
+train loss = 0.7295181155204773
+val acc = 0.68740625
+train loss = 0.7458257079124451
+val acc = 0.70603125
+train loss = 0.7298648953437805
+val acc = 0.7100625
+train loss = 0.7318406701087952
+val acc = 0.70534375
+train loss = 0.7362791299819946
+val acc = 0.70853125
+train loss = 0.7295110821723938
+val acc = 0.71309375
+train loss = 0.7331779599189758
+val acc = 0.7085625
+train loss = 0.7402554750442505
+val acc = 0.70959375
+train loss = 0.7324294447898865
+val acc = 0.71121875
+train loss = 0.7361134886741638
+val acc = 0.7035625
+train loss = 0.7322388291358948
+val acc = 0.71721875
+train loss = 0.7319396138191223
+val acc = 0.71515625
+train loss = 0.7293753623962402
+val acc = 0.7081875

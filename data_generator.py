@@ -30,7 +30,7 @@ class DataGenerator(object):
         self.meta_train_characters = character_folder[: meta_train]
         self.meta_val_characters = character_folder[meta_train: ]
 
-        self.train_data_transform = transforms.RandomAffine(30,(0.15,0.15), fill = 1)
+        self.train_data_transform = transforms.RandomAffine(30,(0.15,0.15)) #, fill = 1)
 
     def sample_batch(self, batch_type, batch_size):
         if batch_type == "train":
