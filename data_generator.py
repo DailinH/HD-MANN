@@ -32,15 +32,17 @@ class DataGenerator(object):
 
         self.train_data_transform = transforms.RandomAffine(30,(0.15,0.15)) #, fill = 1)
 
-    def sample_batch(self, batch_type, batch_size):
+    def sample_batch(self, batch_type, batch_size, _rand=True):
         if batch_type == "train":
             folders = self.meta_train_characters
             transform = self.train_data_transform
         else:
             folders = self.meta_val_characters
             transform = lambda x: x
-
-        sample_classes = random.sample(folders, self.ways)
+        if _rand:
+          sample_classes = random.sample(folders, self.ways)
+        else:
+          sample_classes = folders[:self.ways]
         one_hot_labels = np.identity(self.ways)
 
         query_candidates = []

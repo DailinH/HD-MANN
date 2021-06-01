@@ -63,19 +63,6 @@ def train(model, data_generator, optimizer, criterion, device, n_step = 50000, s
       steps.append(step)
     #backprop
     optimizer.step()
-    
-  # if save:
-  #     torch.save(model.state_dict(), f"model_{exp_name}")
-  
-  # plt.plot(steps,loss_train)
-  # plt.xlabel("iteration")
-  # plt.ylabel('training loss')
-  # plt.show()
-
-  # plt.plot(steps,val_accs)
-  # plt.xlabel("iteration")
-  # plt.ylabel('validation accuracy')
-  # plt.show()
   return model, steps, loss_train, val_accs
 
 
