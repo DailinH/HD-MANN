@@ -32,7 +32,7 @@ def train(model, data_generator, optimizer, criterion, device, n_step = 50000, s
     support_keys = None
     model.eval()
     with torch.no_grad():
-      support_keys = model(support_set)
+      support_keys = model(support_set) # output: d-dim real vector
 
     #query evaluation
     model.train()
