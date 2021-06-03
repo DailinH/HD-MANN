@@ -47,6 +47,11 @@ class CNNController(nn.Module):
         return self.fc(x)
 ```
 
+Input data will be mapped into HD space with d dimensions through the controller so it can be treated as a HD encoder. For both training and validation, a support set and a query set will be provided to the controller. The goal is to let the controller map objects in the same category to simliar location in HD space for both sets. 
+
+After the support set is mapped into HD vectors, they will be saved into external memory for comparing with the query set HD vectors. We calculate the cosine similarity between each query set HD vector and all support set HD vectors, apply shapening and normalization. Finally, we dot product the similarity matrix with the ground truth labels to get a weighted sum as our prediction.
+
+
 ### 2. Attention Mechansim for the Key-Value Memory
 
 Let $\alpha$ be the consine similarity and $\epsilon$ the sharpening function. The attention function $\sigma$ is defined as
